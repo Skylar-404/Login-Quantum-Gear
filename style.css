@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+/* Navigation */
+/* Relocate navigation btn */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 30px 0px;
+}
+
+/* Text in navigation */
+nav a {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.1s ease 0s;
+}
+
+/* Applied transition */
+nav a:hover {
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
+
+/* Logo */
+nav a img {
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+/*  */
+/*  */
+/* Hold the container */
+.big-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Login section */
+.container {
+    background-color: white;
+    /* margin: 100px 325px; */
+    padding: 35px;
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Header - greet */
+.sub-container-one {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sub-container-one h1 {
+    font-family: 'Poppines', sans-serif;
+}
+
+.sub-container-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Left-container */
+.sub-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+/* Resize the logo */
+.sub-container-left img {
+    width: 100px;
+    padding: 32px 0px;
+}
+
+.description-one {
+    font-family: 'Poppines', sans-serif;
+}
+
+.home-groups {
+    font-size: 16px;
+}
+
+.login-group-one {
+    display: flex;
+    align-items: center;
+}
+
+/* User benefit icon */
+.description-one img {
+    width: 60px;
+    padding: 28px 0px;
+}
+
+/* User benefit */
+.description-one h4 {
+    float: right;
+    padding: 0px 16px;
+    text-decoration: underline;
+}
+
+.login-group-two img {
+    width: 30px;
+    padding: 0px 12px;
+}
+
+.login-group-two {
+    display: flex;
+    align-items: center;
+}
+
+.login-group-two p {
+    padding: 12px 20px;
+}
+
+.login-group-three {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+/* Register */
+.login-group-three a {
+    color: black;
+    font-weight: 900;
+    transition: transform 0.1s;
+}
+
+.login-group-three a:hover {
+    color: blue;
+    transform: translateY(-2px);
+}
+
+
+/* Container-right */
+.sub-container-right {
+    padding: 32px 0px 32px 70px;
+    font-family: 'Poppines', sans-serif;
+    box-shadow: -2px 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Text adjustment */
+.login-group-four {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Input boxes */
+.login-input-boxes form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 0px;
+}
+
+.login-input-boxes input {
+    height: 44px;
+    width: 456px;
+}
+
+#email,
+#password {
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 12px;
+    background-color: #F8F8F8;
+    font-size: 14px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.login-input-boxes form button {
+    height: 44px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* Login method */
+.login-group-five a {
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.login-group-six {
+    padding: 56px 0;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.login-group-six p {
+    font-size: 16px;
+}
+
+.login-sub-group-six img {
+    width: 35px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 2px;
+}
+
+.sub-container-three {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px 0px 0px;
+}
+
+.sub-container-three a {
+    font-size: 12px;
+    color: black;
+    transition: transform 0.3s;
+}
+
+.sub-container-three a:hover {
+    transform: translateY(-2px);
+    color: blue;
+}
